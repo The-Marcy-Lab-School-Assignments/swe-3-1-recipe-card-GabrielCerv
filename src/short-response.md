@@ -7,11 +7,13 @@ Answer the following questions in your own words. Each response should be 2-4 se
 What is the difference between the `<head>` and `<body>` sections of an HTML document? What kind of content goes in each?
 
 **Your Answer:**
-
+The difference between `<head>` and `<body>` is that head stores the information for the page internally and the body projects the code written, into the external page (meaning it turns the code into ) into the actual page 
 
 ## Question 2: Semantic HTML
 
 Why should we use semantic elements like `<header>`, `<main>`, and `<footer>` instead of using `<div>` tags for everything?
+
+
 
 **Your Answer:**
 
