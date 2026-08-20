@@ -9,8 +9,105 @@ ul {
   list-style: none;
 }
 
-img {
+main {
   width: 100%;
 }
 
+h2,
+h1 {
+  color: #ffac37;
+  text-underline-position: auto;
+
+}
+
+h2 {
+  font-size: x-large;
+
+}
+
 /* Add your CSS below */
+body {
+  background-color: #ffac37;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img {
+  width: 300px;
+  border-radius: 15%;
+  border: 10px solid #295810;
+  border: 8px groove white;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.275);
+  color: white;
+}
+
+
+figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+a:hover {
+  background-color: #ffac37;
+  color: #295810b3;
+
+}
+
+main {
+  background-color: #295810;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+
+}
+
+.section1 {
+
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  color: #05560b;
+  border: #ffac37;
+  border-radius: 20px;
+
+}
+
+.section2 {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 50%;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100%;
+  padding: 100px 20px
+}
+
+.section2>ul>li {
+  background-color: #29581048;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+hr {
+  border: 2px dashed black;
+}
+
+ol {
+  background-color: #ffffffba;
+  border: 8px double;
+  padding: 70px 25px;
+  text-align: start;
+  border-radius: 2%;
+}
